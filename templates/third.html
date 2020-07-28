@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>title</title>
+<style type="text/css">
+	#name{
+		top: 10px;
+		left: 80px;
+		position: absolute;
+		font-size: 25px;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="/static/style/global.css">
+<link rel="stylesheet" type="text/css" href="/static/style/style.css">
+
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/static/js/index.js"></script>
+
+</head>
+<body>
+<div id="name">
+	<em><strong>{{ dict["name"] }}</strong></em>
+</div>
+<div class="nave">
+	
+	<ul>
+
+		<li class="current">症状</li>
+		<li>病因</li>
+		<li>诊断</li>
+		<li>治疗</li>
+		<li>预防</li>
+
+	</ul>
+</div>
+<!-- S-主要部分 -->
+<div class="main_box">
+
+	<div class="page1">
+		<h3>{{dict["name"]}}的症状</h3><br>
+		<p>{{ dict["symptom"] }}</p>
+
+	</div>
+
+	<div class="page2">
+		<h3>{{dict["name"]}}的病因</h3><br>
+		<p>{{ dict["pathogeny"] }} </p>
+	</div>
+
+	<div class="page3">
+		<h3>{{dict["name"]}}的诊断</h3><br>
+		<p>{{ dict["diagnose"]}}</p>
+	</div>
+
+	<div class="page4">
+
+		<h3>{{dict["name"]}}的治疗</h3><br>
+		<p>{{ dict["remedy"] }}</p>
+
+	</div>
+
+	<div class="page5">
+			<h3>{{dict["name"]}}的预防</h3><br>
+			<p>{{ dict["prevent"] }}</p>
+	</div>
+	
+</div>
+<!-- E-主要部分 -->
+</body>
+</html>

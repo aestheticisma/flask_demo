@@ -1,0 +1,91 @@
+/*
+* @Author: win
+* @Date:   2016-09-09 12:12:43
+* @Last Modified by:   win
+* @Last Modified time: 2016-09-09 15:56:51
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.nave{
+	width:260px;
+	background: #eee;
+	position: fixed;
+	left: 0;
+	top: 50px;
+}
+.nave ul{width: 100%;height: 100%;}
+.nave ul li{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+}
+.nave ul li:nth-child(even){
+	background: #fff;
+}
+.nave ul li:nth-child(1).current{
+	background: white;
+}
+.nave ul li:nth-child(2).current{
+	background: #76d241;
+}
+.nave ul li:nth-child(3).current{
+	background: #76d241;
+}
+.nave ul li:nth-child(4).current{
+	background: #76d241;
+}
+.nave ul li:nth-child(5).current{
+	background: #76d241;
+}
+.nave ul li:nth-child(6).current{
+	background:#76d241;
+}
+.nave ul li:nth-child(7).current{
+	background: #76d241;
+}
+
+
+.main_box{
+	width: 100%;
+	height: 100%;
+	background: #F0F8FF;
+	padding: 120px 0 0 260px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.main_box>div{
+	width: 100%;
+}
+.page1{
+	background: #F0F8FF;
+}
+.page2{
+	background: #F0F8FF;
+}
+.page3{
+	background: #F0F8FF;
+}
+.page4{
+	background: #F0F8FF;
+}
+.page5{
+	background: #F0F8FF;
+}
+.page6{
+	background: #F0F8FF;
+}
+.page7{
+	background: #F0F8FF;
+}

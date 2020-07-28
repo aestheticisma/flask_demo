@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+	<title> {{title}} </title>
+
+</head>
+
+<body>
+	<ul>
+		{% for i in List %}
+		{% for key in i.keys() %}
+
+		{% if key=="name" %}
+		<h2> <a href="/second/details?name={{i[key]|e}}" >{{ i[key]|e }}</a></h2>
+		{% endif %}
+
+		{% if key=="contents" %}
+		<p> {{i[key]|e}} </p>   
+		{% endif %}
+		{% endfor %}
+		{% endfor %}
+	</ul>
+
+
+
+</body>
+</html>
