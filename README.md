@@ -4,7 +4,7 @@
 
 2020-12-03 已打包Docker镜像...
 [大工云盘下载](http://pan.dlut.edu.cn/share?id=wszrwpsjwyhh)
-操作步骤具体见：[Click Here](./dokcer/Docker.md)
+操作步骤具体见：[Click Here](./docker/Docker.md)
 
 ### 环境配置
 
