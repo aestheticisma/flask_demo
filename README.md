@@ -6,6 +6,11 @@
 [大工云盘下载](http://pan.dlut.edu.cn/share?id=wszrwpsjwyhh)
 操作步骤具体见：[Click Here](./docker/Docker.md)
 
+### Demo
+![index.png](./img/index.png)
+![second.png](./img/second.png)
+![details.png](./img/details.png)
+
 ### 环境配置
 
 * 后端使用flask简单搭建
