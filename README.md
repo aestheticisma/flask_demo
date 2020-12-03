@@ -1,6 +1,10 @@
 ## 中文医学搜索引擎demo
 
-因为近期又要使用flask进行开发，因此突然想把之前的辣鸡代码找时间完善一下，就push到这里做个计划吧。
+### Update List
+
+2020-12-03 已打包Docker镜像...
+[大工云盘下载](http://pan.dlut.edu.cn/share?id=wszrwpsjwyhh)
+操作步骤具体见：[Click Here](./dokcer/Docker.md)
 
 ### 环境配置
 
